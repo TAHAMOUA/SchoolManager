@@ -19,7 +19,7 @@ $eleves = $stmt->fetchAll(PDO::FETCH_ASSOC);
 </head>
 
 <body>
-
+<?php include "../../navbar.php"; ?>
 <h1>Liste des élèves</h1>
 
 <a href="create.php">Ajouter un élève</a>
